@@ -26,14 +26,5 @@ theme:
           primary: teal
           accent: lime
 
-extra:
-   social:
-       - icon: fontawesome/brands/github-alt
-         link: https://github.com/trushant05
-       - icon: fontawesome/brands/twitter
-         link: https://twitter.com/_trushant_
-       - icon: fontawesome/brands/linkedin
-         link: https://www.linkedin.com/in/trushant-adeshara
-
 copyright: |
     &copy; 2024 <a href="https://github.com/trushant05" target="_blank" rel="noopener">Trushant Adeshara</a>

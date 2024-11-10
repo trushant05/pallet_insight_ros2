@@ -1,6 +1,5 @@
-# Welcome to MkDocs Template
+# Pallet Insight ROS2 Package
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
@@ -16,12 +15,3 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-## Icons and Emojs
-
-:smile:
-
-:fontawesome-regular-face-laugh-wink:
-
-:fontawesome-brands-twitter:{ .twitter }
-
-:octicons-heart-fill-24:{ .heart }
