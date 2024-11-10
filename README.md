@@ -20,14 +20,14 @@
 <br />
 <div align="center">
   <a href="https://github.com/trushant05/pallet_insight_ros2">
-    <img src="images/logo.png" alt="Logo" width="200" height="120">
+    <img src="./assets/img/logo.png" alt="Logo" width="200" height="120">
   </a>
 
   <h3 align="center">Pallet Insight ROS2</h3>
 
   <p align="center">
     <br />
-    <a href="https://github.com/trushant05/pallet_insight_ros2"><strong>Explore the docs »</strong></a>
+    <a href="http://trushant-adeshara.com/pallet_insight_ros2/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/trushant05/pallet_insight_ros2">View Demo</a>
@@ -52,15 +52,9 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -73,17 +67,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This project is an exploration of my passions and skills in the field of C++ programming, game development, and robotics. It serves as a comprehensive knowledge base that documents my journey and learnings in these areas. 
-
-I created this project for a great cause: to inspire others and contribute to the community by sharing my knowledge and experiences. Here's why I embarked on this journey:
-* **Learning C++**: I've always wanted to deepen my understanding of C++ and build a solid foundation in this powerful programming language.
-* **Robotics**: I love building robots and find it incredibly fun to share my learning process and projects with others who share the same passion.
-* **Game Development**: Games made in Unity have always inspired me, and I aspired to create one of my own, turning my creative ideas into interactive experiences.
-
-This template might not cover all your requirements for an ideal project template, and that's okay. My role is to provide a starting point, and now it's your turn to customize and expand it to fit your specific needs. 
-
-Use this `README.md` as the foundation for your project documentation and let your creativity and expertise take it from here.
-
+Here will be the brief summary of the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,34 +88,6 @@ Following is the tech stack for the Pallet Insight ROS2 package:
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -158,33 +114,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [ ] Spanish
 
 See the [open issues](https://github.com/trushant05/pallet_insight_ros2/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
