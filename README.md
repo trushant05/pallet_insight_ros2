@@ -16,26 +16,25 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href=""https://github.com/trushant05/mkdocs_material_template>
+  <a href="https://github.com/trushant05/pallet_insight_ros2">
     <img src="images/logo.png" alt="Logo" width="200" height="120">
   </a>
 
-  <h3 align="center">Project Title</h3>
+  <h3 align="center">Pallet Insight ROS2</h3>
 
   <p align="center">
     <br />
-    <a href="https://github.com/trushant05/mkdocs_material_template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/trushant05/pallet_insight_ros2"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/trushant05/mkdocs_material_template">View Demo</a>
+    <a href="https://github.com/trushant05/pallet_insight_ros2">View Demo</a>
     ·
-    <a href="https://github.com/trushant05/mkdocs_material_template/issues">Report Bug</a>
+    <a href="https://github.com/trushant05/pallet_insight_ros2/issues">Report Bug</a>
     ·
-    <a href="/https://github.com/trushant05/mkdocs_material_template/issues">Request Feature</a>
+    <a href="https://github.com/trushant05/pallet_insight_ros2/issues">Request Feature</a>
   </p>
 </div>
 
@@ -91,14 +90,10 @@ Use this `README.md` as the foundation for your project documentation and let yo
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Following is the tech stack for the Pallet Insight ROS2 package:
 
-* [![C][C-badge]][C-url]
-* [![C++][Cpp-badge]][Cpp-url]
-* [![Python][Python-badge]][Python-url]
-* [![MATLAB][Matlab-badge]][Matlab-url]
-* [![JavaScript][Js-badge]][Js-url]
-* [![Rust][Rust-badge]][Rust-url]
+* Python
+* ROS 2
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +157,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [ ] Chinese
     - [ ] Spanish
 
-See the [open issues](https://github.com/trushant05/mkdocs_material_template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/trushant05/pallet_insight_ros2/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,9 +193,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Trushant Adeshara - trushant@umich.edu
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [Pallet Insight ROS2](https://github.com/trushant05/pallet_insight_ros2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -224,32 +219,20 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/trushant05/mkdocs_material_template.svg?style=for-the-badge
-[contributors-url]: https://github.com/trushant05/mkdocs_material_template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/trushant05/mkdocs_material_template.svg?style=for-the-badge
-[forks-url]: https://github.com/trushant05/mkdocs_material_template/forks
-[stars-shield]: https://img.shields.io/github/stars/trushant05/mkdocs_material_template.svg?style=for-the-badge
-[stars-url]: https://github.com/trushant05/mkdocs_material_template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/trushant05/mkdocs_material_template.svg?style=for-the-badge
-[issues-url]: https://github.com/trushant05/mkdocs_material_template/issues
-[license-shield]: https://img.shields.io/github/license/trushant05/mkdocs_material_template.svg?style=for-the-badge
-[license-url]: https://github.com/trushant05/mkdocs_material_template/blob/main/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/trushant05/pallet_insight_ros2.svg?style=for-the-badge
+[contributors-url]: https://github.com/trushant05/pallet_insight_ros2/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/trushant05/pallet_insight_ros2.svg?style=for-the-badge
+[forks-url]: https://github.com/trushant05/pallet_insight_ros2/forks
+[stars-shield]: https://img.shields.io/github/stars/trushant05/pallet_insight_ros2.svg?style=for-the-badge
+[stars-url]: https://github.com/trushant05/pallet_insight_ros2/stargazers
+[issues-shield]: https://img.shields.io/github/issues/trushant05/pallet_insight_ros2.svg?style=for-the-badge
+[issues-url]: https://github.com/trushant05/pallet_insight_ros2/issues
+[license-shield]: https://img.shields.io/github/license/trushant05/pallet_insight_ros2.svg?style=for-the-badge
+[license-url]: https://github.com/trushant05/pallet_insight_ros2/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/trushant-adeshara/
 [product-screenshot]: images/screenshot.jpeg
 
-[C-badge]: https://img.shields.io/badge/C-white?style=flat
-[C-url]: https://www.learn-c.org/
-[Cpp-badge]: https://img.shields.io/badge/C%2B%2B-white?style=flat&logo=cpp
-[Cpp-url]: https://cplusplus.com/
-[Python-badge]: https://img.shields.io/badge/Python-white?style=flat&logo=python
-[Python-url]: https://www.python.org/
-[Matlab-badge]: https://img.shields.io/badge/MATLAB-white?style=flat&logo=MATLAB
-[Matlab-url]: https://www.mathworks.com/products/matlab.html
-[Js-badge]: https://img.shields.io/badge/Javascript-black?style=flat&logo=javascript
-[Js-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-[Rust-badge]: https://img.shields.io/badge/Rust-black?style=flat&logo=rust
-[Rust-url]: https://www.rust-lang.org/
 
 ## Reference
 This README.md file was inspired from work of [othneildrew](https://github.com/othneildrew/Best-README-Template).
