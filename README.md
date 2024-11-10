@@ -1,19 +1,15 @@
 <a name="readme-top"></a>
 
+
+
 <!-- PROJECT SHIELDS -->
-<!--
-*** The README I refered to make this was using  markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 <!-- PROJECT LOGO -->
@@ -54,7 +50,6 @@
       <a href="#getting-started">Getting Started</a>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -65,16 +60,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here will be the brief summary of the project.
+Pallet Insight ROS2 is a pallet detection and segmentation ROS2 package designed for real-time pallet identification in warehouse environments. This solution primarily uses RGB images, with optional parameters to incorporate depth images for enhanced model performance. The entire pipeline is optimized for edge devices, specifically the NVIDIA Jetson Orin ecosystem, to support mobile robotic applications.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Built With
 
-Following is the tech stack for the Pallet Insight ROS2 package:
+Tech stack for Pallet Insight ROS2 package:
 
 * Python
 * ROS 2
@@ -96,24 +89,7 @@ To get a local copy up and running follow these simple example steps.
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/trushant05/pallet_insight_ros2/issues) for a full list of proposed features (and known issues).
+_For more examples, please refer to the [Documentation](http://trushant-adeshara.com/pallet_insight_ros2/)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
