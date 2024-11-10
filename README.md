@@ -20,7 +20,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/trushant05/pallet_insight_ros2">
-    <img src="./assets/img/logo.png" alt="Logo" width="200" height="120">
+    <img src="./docs/assets/img/logo.png" alt="Logo" width="400">
   </a>
 
   <h3 align="center">Pallet Insight ROS2</h3>
