@@ -68,7 +68,6 @@ Pallet Insight ROS2 is a pallet detection and segmentation ROS2 package designed
 ### Built With
 
 Tech stack for Pallet Insight ROS2 package:
-
 * Python
 * ROS 2
 

@@ -1,9 +1,13 @@
-site_name: Pallet Insights ROS2
+site_name: Pallet Insight ROS2
 theme:
     name: material
+    logo: assets/img/logo.png
     features:
         - navigation.tabs
+        - navigation.tabs.sticky
         - navigation.sections
+        - navigation.path
+        - navigation.indexes
         - toc.integrate
         - navigation.top
         - search.suggest
@@ -17,14 +21,42 @@ theme:
           toggle:
             icon: material/toggle-switch-off-outline
             name: Switch to dark mode
-          primary: teal
-          accent: purple
+          primary: black
+          accent: teal
         - scheme: slate
           toggle:
             icon: material/toggle-switch
             name: Switch to light mode
-          primary: teal
+          primary: black
           accent: lime
+    font:
+        text: Roboto
+        code: Roboto Mono
+
+repo_url: http://trushant-adeshara.com/pallet_insight_ros2/
+
+plugins:
+    - search
+
+nav:
+    - Home: index.md
+    - Setup: setup.md
+    - Dataset Preparation: data.md
+    - Model Development: model.md
+    - ROS2 Node: ros2.md
+    - Deployment: deploy.md
+
+markdown_extensions:
+    - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+
+extra_css:
+    - assets/css/extra.css
 
 copyright: |
     &copy; 2024 <a href="https://github.com/trushant05" target="_blank" rel="noopener">Trushant Adeshara</a>
