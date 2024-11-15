@@ -33,7 +33,7 @@ Note: These ranges were set to the maximum permissible limits before Roboflow su
 
 ## Step 4: Dataset for Training
 
-[Pallet Insight Dataset Roboflow](https://universe.roboflow.com/experimental-ksz9k/pallet-insight)
+[Checkout Pallet Insight Dataset on Roboflow](https://universe.roboflow.com/experimental-ksz9k/pallet-insight)
 
 Dataset consists following distribution:
 
