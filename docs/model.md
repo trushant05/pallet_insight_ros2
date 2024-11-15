@@ -30,13 +30,13 @@ Below are the training and validation results for both model sizes:
 ### 2. YOLOv11-Medium:
 
   <figure>
-      <img src="./assets/img/yolov11_m_100_ep.png" alt="YOLOv11 Medium" width="700">
+      ![](/assets/img/yolov11_m_100_ep.png){ width="700" }
       <figcaption>Figure 4: Training Result (100 epoch)</figcaption>
   </figure>
 
   <div style="display: flex; justify-content: space-around; align-items: flex-start; gap: 20px;">
   <figure>
-      <img src="./assets/img/yolov11_m_100_ep_cmn.png" alt="YOLOv11 Medium" width="400">
+      <img src="/assets/img/yolov11_m_100_ep_cmn.png" alt="YOLOv11 Medium" width="400">
       <figcaption>Figure 5: Training Confusion Matrix Normalized</figcaption>
   </figure>
   <figure>
