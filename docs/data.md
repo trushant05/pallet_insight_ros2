@@ -31,7 +31,11 @@ Using the dataset export feature, the 519 images were augmented with the followi
 Note: These ranges were set to the maximum permissible limits before Roboflow suggested adjustments, to establish a baseline model. Future enhancements may involve additional augmentation to improve model robustness.
 
 
-## Step 4: Final Dataset for Training
+## Step 4: Dataset for Training
+
+[Pallet Insight Dataset Roboflow](https://universe.roboflow.com/experimental-ksz9k/pallet-insight)
+
+Dataset consists following distribution:
 
 - Training set: 1092
 - Validation set: 103
