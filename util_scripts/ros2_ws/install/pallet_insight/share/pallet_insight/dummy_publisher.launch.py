@@ -16,8 +16,16 @@ def generate_launch_description():
             output='screen',
             parameters=[
                 {'image_folder': 'images'},
-                {'publish_interval': 1.0},
+                {'publish_fps': 5.0},
+                {'display_duration': 5.0},
             ]
+        ),
+
+        Node(
+            package='pallet_insight',
+            executable='detector_node',
+            name='detector_node',
+            output='screen',
         ),
     ])
 

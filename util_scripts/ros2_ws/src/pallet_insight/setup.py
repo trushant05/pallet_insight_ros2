@@ -24,7 +24,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'dummy_publisher = pallet_insight.dummy_publisher:main'
+            'dummy_publisher = pallet_insight.dummy_publisher:main',
+            'detector_node = pallet_insight.detector:main'
         ],
     },
 )

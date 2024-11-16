@@ -20,14 +20,16 @@ class DummyPublisher(Node):
 
         # Declare parameters for the node
         self.declare_parameter('image_folder', 'pallet_insight/images')
-        self.declare_parameter('publish_interval', 1.0)  # Time interval between each image publication
+        self.declare_parameter('publish_fps', 5.0)  # Time interval between each image publication
+        self.declare_parameter('display_duration', 5.0)
 
         # Get parameters
         package_share_directory = get_package_share_directory('pallet_insight')
         image_folder_relative = self.get_parameter('image_folder').get_parameter_value().string_value
         self.image_folder = os.path.join(package_share_directory, image_folder_relative)
-        self.publish_interval = self.get_parameter('publish_interval').get_parameter_value().double_value
-
+        self.publish_fps = self.get_parameter('publish_fps').get_parameter_value().double_value
+        self.display_duration = self.get_parameter('display_duration').get_parameter_value().double_value
+        
         # Create publishers
         self.image_raw_publisher = self.create_publisher(Image, 'image_raw', 10)
         self.depth_raw_publisher = self.create_publisher(Image, 'depth_raw', 10)
@@ -42,8 +44,13 @@ class DummyPublisher(Node):
         self.image_paths.sort()
         self.current_image_index = 0
 
-        # Create a timer to publish images at a specific rate
-        self.timer = self.create_timer(self.publish_interval, self.publish_image_callback)
+        # Calculate the number of frames to publish each image
+        self.frames_per_image = int(self.display_duration * 60 * self.publish_fps)
+        self.current_frame_count = 0
+
+        # Create a timer to publish images at a specific rate (30 fps)
+        self.timer = self.create_timer(1.0 / self.publish_fps, self.publish_image_callback)
+
 
     def publish_image_callback(self):
         if not self.image_paths:
@@ -88,11 +95,12 @@ class DummyPublisher(Node):
         compressed_depth_msg.data = cv2.imencode('.jpg', depth_image)[1].tobytes()
         self.depth_compressed_publisher.publish(compressed_depth_msg)
 
-        # Update the index to the next image
-        self.current_image_index = (self.current_image_index + 1) % len(self.image_paths)
-        
-        self.get_logger().info(f'Published image: {os.path.basename(image_path)}')
-
+        # Update frame count and check if it's time to switch to the next image
+        self.current_frame_count += 1
+        if self.current_frame_count >= self.frames_per_image:
+            self.current_frame_count = 0
+            self.current_image_index = (self.current_image_index + 1) % len(self.image_paths)
+            self.get_logger().info(f'Switched to next image: {os.path.basename(image_path)}')
 
 
 def main(args=None):
