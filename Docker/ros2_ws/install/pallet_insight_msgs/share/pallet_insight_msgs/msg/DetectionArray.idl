@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pallet_insight_msgs/msg/DetectionArray.msg
+// generated code does not contain a copyright notice
+
+#include "pallet_insight_msgs/msg/Detection.idl"
+#include "std_msgs/msg/Header.idl"
+
+module pallet_insight_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "represents all YOLO detections in one frame")
+    struct DetectionArray {
+      std_msgs::msg::Header header;
+
+      sequence<pallet_insight_msgs::msg::Detection> detections;
+    };
+  };
+};

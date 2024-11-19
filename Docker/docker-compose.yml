@@ -1,0 +1,16 @@
+
+services:
+  ros2_container:
+    build:
+      context: .
+    image: pallet_insight:latest
+    runtime: nvidia  # Enables NVIDIA runtime for GPU acceleration
+    network_mode: host
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    #command: ["/ros2_ws/entrypoint.sh"]
+    command: ["/ros2_ws/external_data.sh"]
+
