@@ -70,6 +70,7 @@ Pallet Insight ROS2 is a pallet detection and segmentation ROS2 package designed
 Tech stack for Pallet Insight ROS2 package:
 * Python
 * ROS 2
+* TensorRT
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,15 +79,21 @@ Tech stack for Pallet Insight ROS2 package:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-
+Pull the pallet_insight latest docker image from Docker Hub:
+```
+docker pull trushant99/pallet_insight:latest
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Use docker compose file in Docker directory to run the ROS2 node:
+```
+docker compose up
+```
+
+Note: The above script by default will run docker container with a dummy publisher,
+if you have external image topics, change the entrypoint from default (entrypoint.sh) to external_data.sh.
 
 _For more examples, please refer to the [Documentation](http://trushant-adeshara.com/pallet_insight_ros2/)_
 
@@ -108,18 +115,16 @@ Project Link: [Pallet Insight ROS2](https://github.com/trushant05/pallet_insight
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Following resources were very helpful in developing Pallet Insight ROS2 Package:
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Ultralytics YOLO11](https://docs.ultralytics.com/models/yolo11/)
+* [Roboflow](https://roboflow.com/)
+* [TensorRT](https://github.com/NVIDIA/TensorRT)
+* [Yolo ROS](https://github.com/mgonzs13/yolo_ros)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
