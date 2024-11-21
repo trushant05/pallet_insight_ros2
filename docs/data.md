@@ -13,9 +13,13 @@
 
 ## Step 1: Annotate Dataset
 
+<div class="justified-content">
 The Pallet Dataset contains 519 images, which were annotated as the first step. To expedite the labeling process, I used auto-labeling with Grounding DINO, integrated directly in Roboflow for object detection dataset and SAM2 for segmentation dataset, which significantly improved efficiency.
+</div>
 
+<div class="justified-content">
 Note: While Grounding DINO performed well in identifying the ground, it encountered challenges in accurately labeling pallets. It often inferred both the pallet and the payload as a single entity. For SAM2, while it is near to accurate for gound I found using basic polygon tool more efficient for pallets.
+</div>
 
 
 ## Step 2: Dataset Split
@@ -37,8 +41,9 @@ Using the dataset export feature, the 519 images were augmented with the followi
 - Brightness: Between -25% to +25%
 - Exposure: Between -15% to +15%
 
+<div class="justified-content">
 Note: These ranges were set to the maximum permissible limits before Roboflow suggested adjustments, to establish a baseline model. Future enhancements may involve additional augmentation to improve model robustness.
-
+</div>
 
 ## Step 4: Dataset for Training
 
