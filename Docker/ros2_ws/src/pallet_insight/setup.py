@@ -14,7 +14,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name), glob('launch/*.launch.py')),
         (os.path.join('share', package_name, 'images'), glob('images/*')),
-        (os.path.join('share', package_name, 'models'), ['models/segmentation/yolov11_m_seg_100_ep.engine']),
+        (os.path.join('share', package_name, 'models'), ['models/segmentation/yolov11_m_seg_200_ep.engine']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
