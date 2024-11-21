@@ -1,12 +1,21 @@
 # Dataset Acquisition and Preparation
 
-![](./assets/img/annotated_data.png)
+<div style="display: flex; justify-content: space-around; align-items: flex-start; gap: 20px;">
+  <figure>
+      <img src="../assets/img/detection_ds.png" alt="Detection Dataset" width="400">
+      <figcaption>Object Detection Dataset <a href="https://universe.roboflow.com/experimental-ksz9k/pallet-insight">[Roboflow]</a></figcaption>
+  </figure>
+  <figure>
+      <img src="../assets/img/semantic_ds.png" alt="Segmentation Dataset" width="400">
+      <figcaption>Instance Segmentation Dataset <a href="https://universe.roboflow.com/experimental-ksz9k/pallet-insight-rfsrt/dataset/1">[Roboflow]</a></figcaption>
+  </figure>
+  </div>
 
 ## Step 1: Annotate Dataset
 
-The Pallet Dataset contains 519 images, which were annotated as the first step. To expedite the labeling process, I used auto-labeling with Grounding DINO, integrated directly in Roboflow, which significantly improved efficiency.
+The Pallet Dataset contains 519 images, which were annotated as the first step. To expedite the labeling process, I used auto-labeling with Grounding DINO, integrated directly in Roboflow for object detection dataset and SAM2 for segmentation dataset, which significantly improved efficiency.
 
-Note: While Grounding DINO performed well in identifying the ground, it encountered challenges in accurately labeling pallets. It often inferred both the pallet and the payload as a single entity.
+Note: While Grounding DINO performed well in identifying the ground, it encountered challenges in accurately labeling pallets. It often inferred both the pallet and the payload as a single entity. For SAM2, while it is near to accurate for gound I found using basic polygon tool more efficient for pallets.
 
 
 ## Step 2: Dataset Split
@@ -32,8 +41,6 @@ Note: These ranges were set to the maximum permissible limits before Roboflow su
 
 
 ## Step 4: Dataset for Training
-
-[Checkout Pallet Insight Dataset on Roboflow](https://universe.roboflow.com/experimental-ksz9k/pallet-insight)
 
 Dataset consists following distribution:
 
