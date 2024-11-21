@@ -8,7 +8,7 @@ def generate_launch_description():
     package_share_directory = get_package_share_directory('pallet_insight')
     image_folder = os.path.join(package_share_directory, 'images')
 
-    model_path = os.path.join(package_share_directory, 'models/yolov11_m_seg_100_ep.engine')
+    model_path = os.path.join(package_share_directory, 'models/yolov11_m_seg_200_ep.engine')
 
     return LaunchDescription([
 

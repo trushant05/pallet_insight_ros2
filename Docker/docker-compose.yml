@@ -12,5 +12,5 @@ services:
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
     #command: ["/ros2_ws/entrypoint.sh"]
-    command: ["/ros2_ws/external_data.sh"]
+    command: ["/ros2_ws/dummy_pub.sh"]
 
