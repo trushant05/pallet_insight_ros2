@@ -17,6 +17,9 @@ def generate_launch_description():
             executable='inference_node',
             name='inference_node',
             output='screen',
+            remappings=[
+                ('/image_raw', '/robot1/zed2i/left/image_rect_color'),
+            ],
             parameters=[
                 {'model': model_path},
                 {'threshold': 0.1},
@@ -25,7 +28,7 @@ def generate_launch_description():
                 {'imgsz_width': 640},
                 {'half': False},
                 {'int8': False},
-            ]
+            ],
         ),
     ])
 

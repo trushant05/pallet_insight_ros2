@@ -19,7 +19,7 @@ def generate_launch_description():
             parameters=[
                 {'image_folder': 'images'},
                 {'publish_fps': 5.0},
-                {'display_duration': 0.1},
+                {'display_duration': 1.0},
             ]
         ),
 

@@ -15,8 +15,8 @@ colcon build --packages-up-to pallet_insight
 echo "Sourcing ROS2 workspace..."
 source /ros2_ws/install/setup.bash
 
-echo "Starting RVIZ2..."
-rviz2 --display-config /ros2_ws/pallet_insight.rviz &
+#echo "Starting RVIZ2..."
+#rviz2 --display-config /ros2_ws/pallet_insight.rviz &
 
 echo "Running ROS2 launch file..."
 ros2 launch pallet_insight pallet_insight.launch.py
