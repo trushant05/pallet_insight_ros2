@@ -33,7 +33,7 @@ theme:
         text: Roboto
         code: Roboto Mono
 
-repo_url: http://trushant-adeshara.com/pallet_insight_ros2/
+repo_url: http://trushant05.github.io/pallet_insight_ros2/
 
 plugins:
     - search
