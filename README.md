@@ -23,7 +23,7 @@
 
   <p align="center">
     <br />
-    <a href="http://trushant-adeshara.com/pallet_insight_ros2/"><strong>Explore the docs »</strong></a>
+    <a href="https://trushant05.github.io/pallet_insight_ros2/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/trushant05/pallet_insight_ros2">View Demo</a>
@@ -95,7 +95,7 @@ docker compose up
 Note: The above script by default will run docker container with a dummy publisher,
 if you have external image topics, change the entrypoint from default (entrypoint.sh) to external_data.sh.
 
-_For more examples, please refer to the [Documentation](http://trushant-adeshara.com/pallet_insight_ros2/)_
+_For more examples, please refer to the [Documentation](https://trushant05.github.io/pallet_insight_ros2/)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
