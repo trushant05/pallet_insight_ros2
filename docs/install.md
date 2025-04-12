@@ -24,7 +24,7 @@ docker compose up
 
 ## x86 architecture (Nvidia GPU)
 
-Coming Soon
+Coming Soon ...
 
 
 ### System Requirements
