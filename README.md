@@ -26,7 +26,7 @@
     <a href="https://trushant05.github.io/pallet_insight_ros2/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/trushant05/pallet_insight_ros2">View Demo</a>
+    <a href="https://trushant05.github.io/pallet_insight_ros2/">View Demo</a>
     ·
     <a href="https://github.com/trushant05/pallet_insight_ros2/issues">Report Bug</a>
     ·
