@@ -1,4 +1,9 @@
 site_name: Pallet Insight ROS2
+site_author: Trushant Adeshara
+
+repo_name: trushant05/pallet_insight_ros2
+repo_url: https://github.com/trushant05/pallet_insight_ros2
+
 theme:
     name: material
     logo: assets/img/logo.png
@@ -33,8 +38,6 @@ theme:
         text: Roboto
         code: Roboto Mono
 
-repo_url: http://trushant05.github.io/pallet_insight_ros2/
-
 plugins:
     - search
 
@@ -44,8 +47,8 @@ nav:
         - Install: install.md
         - Dataset Preparation: data.md
         - Model Development: model.md
-        - ROS2 Node: ros2.md
-        - Deployment: deploy.md
+        #- ROS2 Node: ros2.md
+        #- Deployment: deploy.md
 
 markdown_extensions:
     - pymdownx.highlight:
