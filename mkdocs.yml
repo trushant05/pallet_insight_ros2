@@ -39,12 +39,13 @@ plugins:
     - search
 
 nav:
-    - Home: index.md
-    - Install: install.md
-    - Dataset Preparation: data.md
-    - Model Development: model.md
-    - ROS2 Node: ros2.md
-    - Deployment: deploy.md
+    - Getting Started:
+        - Home: index.md
+        - Install: install.md
+        - Dataset Preparation: data.md
+        - Model Development: model.md
+        - ROS2 Node: ros2.md
+        - Deployment: deploy.md
 
 markdown_extensions:
     - pymdownx.highlight:
