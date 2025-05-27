@@ -3,7 +3,7 @@ theme:
     name: material
     logo: assets/img/logo.png
     features:
-        - navigation.tabs
+        #- navigation.tabs
         - navigation.tabs.sticky
         - navigation.sections
         - navigation.path
